@@ -1,0 +1,16 @@
+{
+	"name": "mynt-cors-proxy",
+	"version": "1.0.0",
+	"description": "CORS proxy for search suggestions on Material You NewTab",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^5.1.0",
+		"express-rate-limit": "^8.0.1",
+		"node-fetch": "^3.3.2"
+	}
+}
